@@ -27,7 +27,6 @@ jobs:
         run: |
           cat /etc/os-release
           lsb_release -a
-          python --version
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
